@@ -1,6 +1,6 @@
 ## Freight Management System
 
-This Python project implements a basic freight management system using SQLite to track container capacity and cargo details, enabling users to simulate loading scenarios and analyze key performance indicators (KPIs).
+This **Python** project implements a basic freight management system using **SQLite** to track container capacity and cargo details, enabling users to simulate loading scenarios and analyze key performance indicators (KPIs).
 
 ### Features
 
