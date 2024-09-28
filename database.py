@@ -53,13 +53,7 @@ def create_database_and_tables(filename):
 
 def seed_data(connection):
     starter_boxes = [
-        ('a1', 1.2, 2.2, 1.2),
-        ('a3', 2.2, 2.13, 1.42),
-        ('k2', 1.2, 2.2, 1.2),
-        ('b31', 1.2, 1.2, 1.2),
-        ('bm2', 4.2, 1.2, 1.2),
-        ('e4', 6.2, 1.2, 1.2),
-        ('k7', 3.2, 2.2, 1.2)
+        
     ]
 
     app_config = [
