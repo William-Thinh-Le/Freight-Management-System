@@ -53,12 +53,14 @@ def create_database_and_tables(filename):
 
 def seed_data(connection):
     starter_boxes = [
-        
+        ("Small Box", 0.5, 0.4, 0.3),  
+        ("Medium Box", 1.0, 0.8, 0.6),
+        ("Large Box",  1.5, 1.2, 0.9)
     ]
 
     app_config = [
         ('MAX_CONTAINERS_STORAGE', 30),
-        ('COST_PER_CONTAINER', 400),
+        ('COST_PER_CONTAINER', 200),
         ('CUBIC_METRE_CHARGEOUT', 40)
     ]
 
